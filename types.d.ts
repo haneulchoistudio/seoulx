@@ -16,3 +16,11 @@ export interface IProduct {
 }
 
 export type Product = DataStructure<IProduct>;
+
+export interface IUser {
+  name: string;
+  email: string;
+  purchases: string[];
+}
+
+export type User = DataStructure<IUser>;
