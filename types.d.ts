@@ -24,3 +24,19 @@ export interface IUser {
 }
 
 export type User = DataStructure<IUser>;
+
+// Logical Types
+
+export type PropData<Props extends object> = {
+  props: Props;
+};
+
+export type RedirectInfo<
+  Destination extends string,
+  Permanency extends boolean
+> = {
+  redirect: {
+    destination: Destination;
+    permanent: Permanency;
+  };
+};

@@ -29,7 +29,7 @@ export default function Index({ user }: Props) {
           </p>
           <Link
             href={"/login"}
-            className="w-full sm:w-max mx-auto flex items-center gap-x-3 lg:gap-x-4 font-medium text-base lg:text-lg px-6 py-3 lg:px-8 lg:py-3.5 rounded border text-neutral-700 border-neutral-700 lg:hover:bg-neutral-900 lg:hover:border-transparent lg:hover:text-white"
+            className="w-full sm:w-max mx-auto flex justify-between items-center gap-x-3 lg:gap-x-4 font-medium text-base lg:text-lg px-6 py-3 lg:px-8 lg:py-3.5 rounded border text-neutral-700 border-neutral-700 lg:hover:bg-neutral-900 lg:hover:border-transparent lg:hover:text-white"
           >
             <span>회원으로 로그인</span>
             <FaLongArrowAltRight className="text-lg lg:text-xl" />
